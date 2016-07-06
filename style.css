@@ -1,0 +1,26 @@
+
+
+#gameExplanation {
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:300px;    
+    bottom: 1500;
+}
+
+
+body{
+    background-image: url('http://i.imgur.com/W7xQP3p.png');
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px 850px; 
+}
+
+#nextPage{
+    position:relative;
+    top:300px;
+    bottom:2000px;
+    left: 500px;    
+}
