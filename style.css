@@ -1,13 +1,40 @@
 
 
-#gameExplanation {
-    font-size: 30px;
-    color: white;
+p{
+    color: white; 
+    font-family: "Courier";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 67em;
+    animation: type 4s steps(60, end); 
     position: relative;
-    top:300px;    
+    top:350px;    
     bottom: 1500;
 }
 
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+@keyframes type2{     
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
 
 body{
     background-image: url('http://i.imgur.com/W7xQP3p.png');
