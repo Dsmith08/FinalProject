@@ -1,7 +1,6 @@
 
 
 #gameExplanation {
-    font-family: cursive;
     font-size: 30px;
     color: white;
     position: relative;
@@ -19,8 +18,11 @@ body{
 }
 
 #nextPage{
-    position:relative;
-    top:300px;
-    bottom:2000px;
-    left: 500px;    
+   position: absolute;
+    top: 90%;
+    left: 45%;
+    margin: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
