@@ -1,8 +1,8 @@
 var nextPage = document.getElementById('nextPage');
 
-function theNextPage( e ){ 
+function theNextPage(){ 
         if( ! confirm("Do you really want to do this?") ){
-            e.preventDefault(); 
+            preventDefault(); 
         } else {
           window.location.href = 'page2.html'; 
         }
