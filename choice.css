@@ -33,7 +33,7 @@ p:nth-child(2){
 }
 
 p:nth-child(3){
-  animation: type2 8s steps(60, end);
+  animation: type2 12s steps(60, end);
 }
 
 @keyframes type2{     
@@ -55,5 +55,5 @@ body{
     background-color:#cccccc;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1500px 450px; 
+    background-size: 1400px 450px; 
 }
